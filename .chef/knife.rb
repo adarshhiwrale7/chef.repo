@@ -7,3 +7,5 @@ node_name                "adarshhiwrale7"
 client_key               "#{current_dir}/adarshhiwrale7.pem"
 chef_server_url          "https://api.chef.io/organizations/amarinfotechlabs"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+validation_client_name	"amarinfotechlabs-validator"
+validation_key	"#{current_dir}/amarinfotechlabs-validator.pem"
